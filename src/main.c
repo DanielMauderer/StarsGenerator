@@ -7,6 +7,7 @@ int main(int argc, char const *argv[])
 {
     // generate_
     radial_tree tree;
+    printf("hallo");
     system("pause");
     return 0;
 }
