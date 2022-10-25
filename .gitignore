@@ -1,2 +1,4 @@
 *.exe
-.vscode
+.git
+.vscode/settings.json
+build

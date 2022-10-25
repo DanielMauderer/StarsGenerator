@@ -1,5 +1,5 @@
 #include <stddef.h>
-#include "radial_tree.h"
+#include "tree/radial_tree.h"
 
 radial_tree *generate_tree(int room_count, int standard_deviations, int stars_per_room)
 {

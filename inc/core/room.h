@@ -1,7 +1,9 @@
-#ifndef A_RADIAL_TREE_ROOM
-#define A_RADIAL_TREE_ROOM
+#ifndef A_ROOM
+#define A_ROOM
 
-#include "point.h"
+#include <stdbool.h>
+#include "core/vector.h"
+#include "core/point.h"
 
 typedef struct room_
 {

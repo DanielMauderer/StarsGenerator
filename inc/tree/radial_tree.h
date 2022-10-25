@@ -1,7 +1,7 @@
 #ifndef A_RADIAL_TREE
 #define A_RADIAL_TREE
 
-#include "radial_tree_room.h"
+#include "tree/radial_tree_room.h"
 
 typedef struct radial_tree_
 {

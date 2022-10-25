@@ -1,7 +1,4 @@
-#include <stdbool.h>
-#include "room.h"
-#include "vector.h"
-#include "point.h"
+#include "core/room.h"
 
 bool is_point_in_room(room *room, point *point)
 {

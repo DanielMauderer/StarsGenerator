@@ -1,7 +1,7 @@
-#ifndef A_RADIAL_TREE_ROOM
-#define A_RADIAL_TREE_ROOM
+#ifndef A_VECTOR
+#define A_VECTOR
 
-#include "point.h"
+#include "core/point.h"
 
 typedef struct vector_
 {

@@ -1,6 +1,6 @@
 #define _USE_MATH_DEFINES
 #include <math.h>
-#include "gauss_helper.h"
+#include "core/gauss_helper.h"
 
 double get_count_prop(gaus_param param, double start, double step_size, double proportion)
 {

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "build",
+      "command": "C:\\MinGW\\bin\\gcc.exe",
+      "args": [
+        "-g",
+        "${workspaceFolder}\\src\\main.c",
+        "-I",
+        "${workspaceFolder}\\inc",
+        "-o",
+        "${workspaceFolder}\\a.exe"
+      ],
+      "options": {
+        "cwd": "C:\\MinGW\\bin"
+      }
+    },
+    {
+      "type": "shell",
+      "label": "build & run",
+      "command": "C:\\MinGW\\bin\\gcc.exe",
+      "args": [
+        "${workspaceFolder}\\src\\main.c",
+        "-I",
+        "${workspaceFolder}\\inc",
+        "-o",
+        "${workspaceFolder}\\a.exe"
+      ],
+      "options": {
+        "cwd": "C:\\MinGW\\bin"
+      }
+    }
+  ],
+  "version":"2.0.0"
+}

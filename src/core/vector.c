@@ -1,4 +1,4 @@
-#include "vector.h"
+#include "core/vector.h"
 
 vector gen_vector(point a, point b)
 {
